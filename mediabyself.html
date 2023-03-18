@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELF</title>
+
+    <style>
+        body{
+            background-color: #f5c8c8;
+            height: 100vh;
+        }
+
+        h1{
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .projector, .tv, .laptop, .tablet, .mobile{
+            font-size: 20px;
+            font-weight: 800;
+            text-align: center;
+            margin-top: 100px;
+            display: none;
+        }
+
+        @media screen and (min-width:0px) {
+            body{
+                background-color: royalblue;
+            }
+            .mobile{
+                display: block;
+            }
+        }
+
+        @media screen and (min-width:400px) {
+            body{
+                background-color: coral;
+            }
+            .mobile{
+                display: none;
+            }
+            .tablet{
+                display: block;
+            }
+        }
+
+        
+        @media screen and (min-width:600px) {
+            body{
+                background-color: teal;
+            }
+            .mobile{
+                display: none;
+            }
+            .tablet{
+                display: none;
+            }
+            .laptop{
+                display: block;
+            }
+        }
+
+        @media screen and (min-width:800px) {
+            body{
+                background-color:peachpuff;
+            }
+            .mobile{
+                display: none;
+            }
+            .tablet{
+                display: none;
+            }
+            .laptop{
+                display: none;
+            }
+            .tv{
+                display: block;
+            }
+        }
+        
+        @media screen and (min-width:1000px) {
+            body{
+                background-color: slateblue;
+            }
+            .mobile{
+                display: none;
+            }
+            .tablet{
+                display: none;
+            }
+            .laptop{
+                display: none;
+            }
+            .tv{
+                display: none;
+            }
+            .projector{
+                display: block;
+            }
+        }
+        
+
+    </style>
+</head>
+<body>
+
+    <h1>Background Color Change</h1>
+    <p class="projector">Projector size: 1200px</p>
+    <p class="tv"> TV size: 1000px</p>
+    <p class="laptop"> laptop size: 800px</p>
+    <p class="tablet"> Tablet size: 600px</p>
+    <p class="mobile"> Mobile size :400px</p>
+    
+</body>
+</html>

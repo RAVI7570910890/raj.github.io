@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-size: 100% 100%;
+    background-image: url(./Png/pexels-maxyne-barcel-10402282\ 1.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+}
+
+
+
+
+header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 350px;
+    
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    list-style: none;
+    font-weight: 700;
+    font-size: large;
+}
+
+.navbar ul li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(247, 172, 33)
+}
+
+.navbar ul li a:hover{
+    color:rgb(168, 27, 27);
+    transition: 0.5s;
+}
+
+button{
+    padding: 10px;
+    background-color: #ee4a4a;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: black;
+    border-style: hidden;
+
+
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.btn{
+    padding: 10px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+hero{
+    margin-top: 5px;
+}
+
+hero1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: xx-large;
+        color: rgb(240, 174, 51);
+        
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hero1 h1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 1200;
+}
+
+hero2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.read{
+    margin-top: 10px;
+}
+
+footer img{
+    float: right;
+    margin-right: -400px;
+    
+
+}

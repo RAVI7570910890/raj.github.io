@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>GRID BOX</title>
+    
+    <style>
+
+        .container{
+            display: grid;
+            height: 800px;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,200px);
+        }
+        .box{
+            /* height: 100px;
+            width: 100px; */
+            border: 1px solid black;
+
+            background-size: cover;
+
+        }
+
+        .box1{
+            background-color:red;
+            grid-row-start: 1;
+            grid-row-end: 3;
+
+            background-image: url(./wallpaper/b.jpg);
+            background-size: cover;
+                        
+        }
+
+        
+        .box2{
+            background-color:blue;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        
+        .box3{
+            background-color:aqua;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        
+        .box4{
+            background-color:chartreuse;
+
+            grid-column-start: 2;
+            grid-column-end:4;
+            background-image: url(./wallpaper/e.jpg);
+            background-size: cover;
+            
+        }
+
+        
+        .box5{
+            background-color:gold;
+            grid-row-start: 3;
+            grid-row-end: 4;
+
+            background-image: url(./wallpaper/c.jpg);
+            background-size: cover;
+        }
+
+        
+        .box6{
+            background-color:brown;
+            
+            grid-row-start: 3;
+            grid-row-end: 5;
+            background-image: url(./wallpaper/a.jpg);
+            background-size: cover;
+        }
+
+
+        
+        .box7{
+            background-color:mediumseagreen;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            background-size: cover;
+            background-image: url(./wallpaper/g.jpg);
+        }
+
+        
+        .box8{
+            background-color:yellowgreen ;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            background-position: center;
+            background-image: url(./wallpaper/i.jpg);
+            /* background-position: center; */
+        }
+
+        
+        .box9{
+            background-color:burlywood;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            background-size: cover;
+            background-image: url(./wallpaper/f.jpg);
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+        <div class="box box8"></div>
+        <div class="box box9"></div>
+    </div>
+    
+</body>
+</html>

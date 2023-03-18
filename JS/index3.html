@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom part 3</title>
+</head>
+<body>
+        <!-- normal html   -->
+    <h1>Hello World</h1>
+    <p id="js"></p>
+    <button onclick="hey()" id="jss">login</button>
+    
+        <!-- javascript -->
+    <script>
+        document.addEventListener("dblclick",hello);
+        function hello(){
+            document.getElementById("js").innerText = "good morning";
+            
+        }
+        function hey(){
+            document.getElementById("jss").innerText ="logout";
+            document.getElementById("jss").style.color="black";
+            document.getElementById("jss").style.backgroundColor="green";
+            document.getElementById("jss").style.padding="5px";
+            document.getElementById("jss").style.border="2px solid yellow";
+        }
+
+    </script>
+</body>
+</html>

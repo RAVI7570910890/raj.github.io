@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-image: url(./Png/ww.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+
+header{
+    margin-bottom: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    color: aliceblue;
+}
+
+.logo{
+    font-size: 35px;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigation{
+    margin-right: 80px;
+    margin-top: 8px;
+}
+
+
+.navigation a{
+    color: aliceblue;
+    position: relative;
+    text-decoration: none;
+    margin: 30px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigation a:hover{
+    color: paleturquoise;
+}
+
+.navigation .login{
+    width: 80px;
+    height: 30px;
+    font-weight: 700;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;   
+    background: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: whitesmoke
+    
+
+}
+
+.navigation .login:hover{
+    background-color: white;
+    color: rgb(8, 14, 2);
+    transition: 0.5s;
+
+}
+
+.box{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 20px;
+    border: 2px solid white;
+    backdrop-filter: blur(5px);
+    
+}
+
+.login{
+    color:aliceblue;
+}
+
+.login h2{
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-box,.checkbox, span, p{
+    padding: 2px;
+    margin: 2px;
+    width: 100%;
+}
+
+
+input{
+    padding: 3px;
+    border-radius: 2px;
+    border: none;
+    border-style: ;
+}
+
+input:hover{
+    padding: 3px;
+    border-radius: 2px;
+    background-color: aquamarine;
+}
+
+
+.checkbox a{
+    text-decoration: none;
+    color:aquamarine;
+}
+
+
+.checkbox a:hover{
+    color: brown;
+    transition: 0.5s;
+}
+
+.checkbox button{
+    padding: 5px 15px;
+    margin: 4px;
+    margin-left: 60px;
+    font-weight: 600;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.checkbox button:hover{
+    background-color: brown;
+    color: wheat;
+    transition: 0.5s;
+}

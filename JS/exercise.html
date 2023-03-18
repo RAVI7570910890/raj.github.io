@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLICK ON BUTTON</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+        body{
+            height: 100vh;
+            width: 100%;
+            background-color: rebeccapurple;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box{
+            text-align: center;
+        }
+        
+        .box button{
+            padding: 4px 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            border-radius: 5px;
+            border: none;
+            background-color: aliceblue;
+            box-shadow: 2px 2px 2px 1px rgb(59, 9, 9);
+            
+        }
+
+        .box button:hover{
+            background-color: lightseagreen;
+            transition: 0.5s;
+            
+        }
+
+        .box p{
+            display: flex;
+            justify-content: center;
+            font-size: larger;
+            color: lightgrey;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        .box a{
+            font-size: 50px;
+        }
+        
+
+
+    
+
+    </style>
+</head>
+<body>
+
+        <!-- Normal Html -->
+    
+        <div class="box">
+    <button onclick="hello()" id="ss">Sign In</button>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Consequuntur nemo ullam reiciendis dolorum? Aliquam  <br>  quos voluptatem sunt alias animi recusandae beatae <br> quisquam.  In quis blanditiis nihil laudantium architecto <br> unde numquam! </p>
+    <a href="#"> <box-icon type='logo' name='instagram'></box-icon></a>
+     <a href="#"> <box-icon type='logo' name='facebook'></box-icon></a>
+     <a href="#"> <box-icon type='logo' name='twitter'></box-icon></a>
+     <a href="#"> <box-icon type='logo' name='github'></box-icon></a>
+     <a href="#"> <box-icon type='logo' name='youtube'></box-icon></a>
+     <a href="#"> <box-icon type='logo' name='linkedin'></box-icon></a>
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+     
+
+        </div>
+
+        
+        <!-- js -->
+    <script>
+    function hello(){
+        document.getElementById("ss").innerText="Sign Out";
+        document.getElementById("ss").style.color="blue";
+        document.getElementById("ss").style.backgroundColor="orange";
+        document.getElementById("ss").style.outline="none";
+        document.getElementById("ss").style.borderRadius="5px";
+        document.getElementById("ss").style.border="none"; 
+    }
+
+    </script>
+</body>
+</html>

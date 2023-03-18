@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./png/bg.png);
+    background-size: 100% 100%;
+    
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    padding: 30px;
+    height: 50px;
+}
+
+.nav img{
+    height: 35px;
+    margin-left: 10px;
+}
+
+.nav button{
+    padding: 5px;
+    background-color: rgb(240, 35, 247);
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.nav button:hover{
+    background-color:green;
+    transition: 0.8s;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.nav ul li{
+    font-size: medium;
+    font-weight: 500;
+    
+}
+
+.nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    color: aqua;
+    transition: 0.5s;
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+.hero h3{
+    font-size: 20px;
+}
+
+.hero button{
+    background-color: rgb(240, 35, 247);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+    box-shadow: 1px 2px 1px 2px ;
+}
+
+.hero button:hover{
+    background-color:rgb(89, 241, 89);
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+}
